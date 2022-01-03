@@ -925,6 +925,7 @@ img {
   position: absolute;
   width: 528px;
   height: 581px;
+  padding: 40px 39px 40px 41px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -1004,13 +1005,13 @@ img {
 /* ============= Form-field ============= */
 
 .modal-title {
+  display: inline-block;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -1025,8 +1026,7 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-left: 41px;
-  margin-right: 39px;
+  width: 100%;
   margin-bottom: 28px;
 }
 
@@ -1045,8 +1045,7 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-left: 41px;
-  margin-right: 39px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -1114,7 +1113,8 @@ textarea {
 .checkbox-form {
   display: flex;
   align-items: center;
-  margin-left: 52px;
+  width: 100%;
+
   margin-bottom: 30px;
 }
 
@@ -1150,7 +1150,7 @@ textarea {
   height: 15px;
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
-
+  margin-left: 13px;
   margin-right: 8px;
 }
 
